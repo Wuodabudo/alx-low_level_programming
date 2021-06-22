@@ -1,8 +1,7 @@
 #include "holberton.h"
-
 /**
  * _islower - prints 1 if lowecase else prints 0
- * a : takes an integer
+ * @a : integer
  * Return: 0
  */
 int _islower(int a)

@@ -2,8 +2,8 @@
 
 /**
  * print_sign - prototype to print sign of number
- *
- * Return: 0.
+ *@x : integer
+ * Return: 0
  */
 int print_sign(int x)
 {
