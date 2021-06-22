@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * print_alphabet_x10 - prints alphabets in lowecases 10 times
-sh: 1: q: not found
+ * print_alphabet_x10 - prints alphabets in lowecases 10 time
+ * 
  * Return: Always 0
  */
 void print_alphabet_x10(void)
