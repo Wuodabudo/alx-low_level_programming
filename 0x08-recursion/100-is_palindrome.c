@@ -1,5 +1,5 @@
 #include "holberton.h"
-/**i
+/**
  * length_count - calculating length of string
  * @last: string s being passed through palindrome function
  * Return: length or 0
