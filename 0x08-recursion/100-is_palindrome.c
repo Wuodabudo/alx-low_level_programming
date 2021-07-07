@@ -33,7 +33,6 @@ int compare_start_end(char *start, char *last)
 int is_palindrome(char *s)
 {
 	char *last;
-	
 	last = s;
 	return (compare_start_end(s, (length_count(last) - 1)));
 }
