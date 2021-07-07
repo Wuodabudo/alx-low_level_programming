@@ -1,5 +1,5 @@
 #include "holberton.h"
-/**
+/**i
  * length_count - calculating length of string
  * @last: string s being passed through palindrome function
  * Return: length or 0
@@ -7,7 +7,7 @@
 char *length_count(char *last)
 {
 	if (*last == '\0')
-	return (last);
+		return (last);
 	return (length_count(last + 1));
 }
 /**
@@ -19,9 +19,10 @@ char *length_count(char *last)
 int compare_start_end(char *start, char *last)
 {
 	if (*start != *last)
-	return (0);
+		return (0);
 	if (start == last || start > last)
-	return (1);
+		return (1);
+
 	return (compare_start_end((start + 1), (last - 1)));
 }
 /**
@@ -32,6 +33,7 @@ int compare_start_end(char *start, char *last)
 int is_palindrome(char *s)
 {
 	char *last;
+	
 	last = s;
 	return (compare_start_end(s, (length_count(last) - 1)));
 }
