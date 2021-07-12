@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - function
  * @argc: number of arguments passed
@@ -8,6 +7,6 @@
  */
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-  printf("%d\n", argc - 1);
-  return (0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
